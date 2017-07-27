@@ -1,7 +1,6 @@
 exec(open("./functions.py").read())
 
 
-
 print("checking that function add exists: ", end = "")
 add
 print(" ...correct")
@@ -23,7 +22,7 @@ assert square([2,4]) == [4,16], "square([2,4]) is not incorrect"
 print(" ...correct")
 
 print("check that square(9) returns [81]", end = "")
-assert square(9) == 81
+assert square(9) == [81]
 print(" ...correct")
 
 
