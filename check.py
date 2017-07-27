@@ -19,7 +19,7 @@ assert square([1,2]) == [1,4]
 print(" ...correct")
 
 print("check that square([2,4]) returns [4,16]", end = "")
-assert square([2,4]) == [4,16]
+assert square([2,4]) == [4,16], "square([2,4]) is not incorrect"
 print(" ...correct")
 
 print("check that square(9) returns [81]", end = "")
