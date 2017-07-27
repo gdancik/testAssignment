@@ -5,6 +5,6 @@ def add(x,y) :
 # returns a list with each element of x squared
 # x must be a list
 def square(x) :
-    #return [i*i for i in x]
-    return [1,4]
+    return [i*i for i in x]
+    #return [1,4]
 
