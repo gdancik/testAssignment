@@ -3,9 +3,12 @@ def add(x,y) :
     return x + y
 
 # returns a list with each element of x squared
-# x must be a list
+# if x is an int, you must convert it to a list
 def square(x) :
-    x = list(x)
+    if type(x) == int :
+        num = x
+        x = list()
+        x.append(num)
     return [i*i for i in x]
     #return [1,4]
 
